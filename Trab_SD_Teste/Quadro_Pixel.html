@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Pixel Teste</title>
+   <style>
+      body {
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #pixel_art {
+        margin: 10px;
+      }
+      button {
+    background-color: rgb(38, 38, 38);
+  	border: none;
+     width: 32px;
+        height: 32px;
+  	cursor: pointer;
+}
+      table {
+        border-collapse: collapse;
+        border: 1px solid #000;
+      }
+      td {
+        width: 32px;
+        height: 32px;
+        color: #FFF;
+        border: 1px solid #000;
+        text-align: center;
+        vertical-align: center;
+        font-family: arial;
+        font-size: 10px;
+        position: relative;
+        font-weight: bold;
+      }
+      td.pixel {
+        width: 4px;
+        height: 4px;
+        border: 0;
+      }
+      .pixel-index {
+        font-size: 7px;
+        display: inline-block;
+        position: absolute;
+        top: 1px;
+        right: 1px;
+        color: #e6e6e6;
+      }
+      a {
+        color: #FFF;
+        font-size: 10px;
+        font-family: arial;
+      }
+      .margin {
+        margin: 5px;
+      }
+    </style>
+
+</head>
+<body>
+	<div id="pixel_art"></div>
+<script src="pixel_art.js"></script>
+
+</body>
+</html>
